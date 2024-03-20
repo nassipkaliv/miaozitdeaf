@@ -189,6 +189,7 @@ margin-top: -20px;
 
 .lisence {
     margin-top: 55px;
+    margin-bottom: 55px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -219,3 +220,61 @@ margin-top: -20px;
     line-height: 30px;
 }
 
+.divider-section {
+    background: linear-gradient(224.13deg, rgb(55, 188, 255) 3.112%,rgb(72, 117, 253) 50.154%,rgb(149, 2, 227) 100.192%);
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.divider-block {
+    box-sizing: border-box;
+    border: 0.8px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+
+.divider-line {
+    border: 0.8px solid rgb(255, 255, 255);
+    border-bottom: 0;
+    height: 1px;
+    width: 100%;
+}
+
+.divider-title {
+    color: rgb(255, 255, 255);
+    font-family: 'Vela Sans GX';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.divider-info-title {
+    color: rgb(255, 255, 255);
+    font-family: 'Nunito';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-left: 5px;
+}
+
+.divider-info {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.divider-info-p {
+    margin-left: 5px;
+    color: rgb(255, 255, 255);
+    font-family: 'Vela Sans GX';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 90%;
+}
+
+.divider-info-p span {
+    font-weight: 700;
+}
