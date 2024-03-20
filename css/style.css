@@ -1,5 +1,18 @@
+@font-face {
+    font-family: 'Vela Sans GX';
+    src: url('../font/VelaSans/VelaSansGX-ExtraLight.woff2') format('woff2'),
+        url('../font/VelaSans/VelaSansGX-ExtraLight.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
 .jumbotron {
-    background: linear-gradient(230deg, rgba(55,188,255,1) 0%, rgba(72,117,253,1) 50%, rgba(147,2,227,1) 100%);    
+    background: url("../img/bgintro");
+    background-size: cover;
+    background-repeat: no-repeat;    
     height: 690px;
 }
 
@@ -26,7 +39,7 @@ color: #FFFFFF;
 .t2 {
 text-align: center;
 color: white;
-font-family: 'Vela Sans GX';
+font-family: 'Vela Sans GX', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 32px;
@@ -34,6 +47,7 @@ line-height: 70px;
 align-items: center;
 text-align: center;
 color: #FFFFFF;
+margin-top: -20px;
 }
 
 .t3 {
@@ -47,3 +61,161 @@ color: #FFFFFF;
     text-align: center;
     color: #FFFFFF;
 }
+
+.menu_nav {
+    gap: 60px;
+}
+
+.menu-btn {
+    background: 
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(60deg, rgb(79, 125, 248), rgb(149, 2, 227)) border-box;
+    color: rgb(18, 18, 18);
+    padding: 10px 12px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+
+.nav-link {
+    color: rgb(18, 18, 18) !important;
+    font-family: 'Vela Sans GX';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 33.6px;
+    letter-spacing: 5%;
+}
+
+.courses {
+    margin-top: 30px;
+}
+
+.course-title {
+    color: rgb(18, 18, 18);
+    font-family: 'Vela Sans GX';
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.6px;
+}
+
+.course-title span {
+    background: linear-gradient(224.01deg, rgb(72, 117, 253),rgb(55, 188, 255));
+    -webkit-background-clip:
+    text;
+    -webkit-text-fill-color:
+    transparent;
+    background-clip:
+    text;
+    text-fill-color:
+    transparent;
+    font-family: Nunito;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 33.6px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.options {
+    gap: 20px;
+}
+
+.option-block {
+    display: flex;
+    color: rgb(18, 18, 18);
+    font-family: 'Vela Sans GX';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 33.6px;
+    box-sizing: border-box;
+    border: 0.8px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 0px 12px;
+}
+
+.option-block.active {
+    background: #32b0ff;
+    color: #fff;
+    border: 0;
+}
+
+.custom-card {
+    border-radius: 20px;
+    background: rgba(55, 188, 255, 0.15);
+    padding: 10px;
+    height: 450px;
+}
+
+.img-block {
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    height: 220px;
+}
+
+.cards {
+    gap: 20px;
+}
+
+.card-title {
+    color: rgb(18, 18, 18);
+    font-family: 'Nunito';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 0px 20px;
+}
+
+.card-p {
+    color: rgb(18, 18, 18);
+    font-family: 'Vela Sans GX';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 5%;
+    padding: 0px 10px;
+}
+
+.second-row-cards {
+    margin-top: 40px;
+}
+
+.lisence {
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lisence-card {
+    box-sizing: border-box;
+    border: 5px solid rgba(55, 188, 255, 0.3);
+    border-radius: 20px;
+    padding: 25px;
+    gap: 8px;
+    display: flex;
+}
+
+.license-title {
+    color: rgb(18, 18, 18);
+    font-family: 'Nunito';
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.license-p {
+    color: rgb(18, 18, 18);
+    font-family: 'Vela Sans GX';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
