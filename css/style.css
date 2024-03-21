@@ -160,6 +160,17 @@ margin-top: -20px;
     line-height: 33.6px;
 }
 
+.course-title.block {
+    background: 
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(60deg, #4875FD, #37BCFF) border-box;
+    border: 1px solid transparent;
+    border-radius: 11px;
+    margin-left: 5px;
+    padding: 2px 10px;
+    
+}
+
 .course-title span {
     background: linear-gradient(224.01deg, rgb(72, 117, 253),rgb(55, 188, 255));
     -webkit-background-clip:
@@ -193,6 +204,7 @@ margin-top: -20px;
     border: 0.8px solid rgb(0, 0, 0);
     border-radius: 10px;
     padding: 0px 12px;
+    cursor: pointer;
 }
 
 .option-block.active {
@@ -593,6 +605,7 @@ margin-top: -20px;
     padding: 15px 25px;
     position: relative;
     margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .shark {
@@ -644,5 +657,109 @@ margin-top: -20px;
     line-height: 33.6px;
     letter-spacing: 5%;
     margin-right: 18px;
+
+}
+
+.footer-text {
+    color: rgb(255, 255, 255);
+    font-family: 'Vela Sans';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.lisence-text {
+    color: rgb(255, 255, 255);
+    font-family: 'Vela Sans';
+    font-size: 10.7px;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.footer-link {
+    color: rgb(255, 255, 255);
+    font-family: 'Vela Sans SemBd';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 33.6px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+}
+
+.footer-small-link {
+    color: rgb(255, 255, 255);
+    font-family: 'Vela Sans';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.social-links {
+    gap: 8px;
+    position: relative;
+}
+
+.social-link img {
+    width: 34px;
+    height: 34px;
+}
+
+.markk {
+    color: rgb(255, 255, 255);
+    font-family: 'Vela Sans Med';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    background: transparent !important;
+    position: absolute;
+    top: -10px;
+    right: 50px;
+}
+
+.instagram-ban {
+    color: rgb(255, 255, 255);
+    font-family: 'Vela Sans';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-top: 10px;
+}
+
+.arrowUp img {
+    position: absolute;
+    right: 150px;
+    z-index: 5;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 768px) { 
+    .t1 {
+        font-size: 28.56px;
+        font-weight: 700;
+        line-height: 33.1px;
+    }
+
+    .t2 {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 24.82px;
+        margin-top: 0;
+    }
+
+    .t3 {
+        font-size: 21.67px;
+        font-weight: 600;
+        line-height: 25px;
+    }
+
+    .jumbotron {
+        height: auto;
+        padding: 60px 0px;
+    }
 
 }
