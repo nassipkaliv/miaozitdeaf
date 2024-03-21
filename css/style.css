@@ -291,6 +291,13 @@ margin-top: -20px;
     border-radius: 20px;
     padding-top: 16px;
     padding-bottom: 24px;
+    position: relative;
+}
+
+.threebuttons {
+    position: absolute;
+    top: 5px;
+    right: 10px;
 }
 
 .divider-line {
@@ -399,7 +406,7 @@ margin-top: -20px;
     font-family: 'Vela Sans SemBd';
 }
 
-.aboutus-info {
+.aboutus-info-text {
     font-family: 'Nunito';
     font-weight: 400;
     font-size: 20px;
@@ -407,11 +414,144 @@ margin-top: -20px;
     color: #121212;
 }
 
-.aboutus-info span {
+.aboutus-info-text span {
     font-weight: 700;
     font-size: 22px;
     background: linear-gradient(222deg, #4875fd 0%, #37bcff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+
+.conditions {
+    margin-top: 55px;
+}
+
+.title-conditions {
+    color: rgb(18, 18, 18);
+    font-family: 'Vela Sans SemBd';
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 5%;
+}
+
+.condition-text {
+    color: rgb(3, 81, 193);
+    font-family: 'Vela Sans SemBd';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 5%;
+    text-align: center;
+}
+
+.condition-row {
+    gap: 60px;
+}
+
+.howget {
+    margin-top: 80px;
+}
+
+.courseblock {
+    background: 
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(60deg, rgb(79, 125, 248), rgb(149, 2, 227)) border-box;
+    border: 1px solid transparent;
+    border-radius: 9px;
+    display: inline-block;
+    position: relative;
+    margin-top: 15px;
+    width: 350px;
+}
+
+.coursestep {
+    border-radius: 9.2px;
+    /* МИАОЦИТ */
+    background: linear-gradient(229.84deg, rgb(55, 188, 255) 4.025%,rgb(79, 125, 248) 52.452%,rgb(149, 2, 227) 98.059%);
+    color: rgb(255, 255, 255);
+    font-family: 'Vela Sans SemBd';
+    font-size: 18.41px;
+    font-weight: 600;
+    line-height: 45.83px;
+    letter-spacing: 5%;
+    padding: 0px 13px;
+    position: absolute;
+    top: -30px;
+    left: -50px;
+}
+
+.blockTitle {
+    color: rgb(18, 18, 18);
+    font-family: 'Vela Sans SemBd';
+    font-size: 16.57px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 5%;
+    text-align: center;
+    margin: 5px 0px;
+}
+
+.titleSvg {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.blockLine {
+    width: 100%;
+    height: 1px;
+    background: 
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(60deg, rgb(79, 125, 248), rgb(149, 2, 227)) border-box;
+    border: 1px solid transparent;
+    border-bottom: 0;
+}
+
+.blockText {
+    color: rgb(18, 18, 18);
+    font-family: 'Vela Sans';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.12em;
+    text-align: justify;
+}
+
+.blockInfo {
+    margin: 10px 12px;
+    margin-bottom: 30px;
+}
+
+.instructions-text {
+    color: rgb(0, 0, 0);
+    font-family: 'Vela Sans';
+    font-size: 12.6px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 5%;
+    margin-left: 5px;
+}
+
+.instruction-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4.85px 7.76px 4.85px 7.76px;
+    border-radius: 3.69px;
+    box-shadow: 0px 0.97px 1.94px 0px rgba(0, 0, 0, 0.25);
+    background: rgba(55, 188, 255, 0.15);
+}
+
+.instruction-block-text {
+    color: rgb(0, 0, 0);
+    font-family: 'Vela Sans';
+    font-size: 11.63px;
+    font-weight: 400;
+    line-height: 22.14px;
+    text-align: justify;
+    margin-left: 5px;
 }
