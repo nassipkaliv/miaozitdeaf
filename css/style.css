@@ -1,11 +1,66 @@
 @font-face {
-    font-family: 'Vela Sans GX';
-    src: url('../font/VelaSans/VelaSansGX-ExtraLight.woff2') format('woff2'),
-        url('../font/VelaSans/VelaSansGX-ExtraLight.woff') format('woff');
-    font-weight: 400;
+    font-family: 'Vela Sans';
+    src: url('../font/VelaSans/VelaSans-Regular.woff2s') format('woff2'),
+        url('../font/VelaSans/VelaSans-Regular.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'Vela Sans';
+    src: url('../font/VelaSans/VelaSans-Light.woff2') format('woff2'),
+        url('../font/VelaSans/VelaSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vela Sans Med';
+    src: url('../font/VelaSans/VelaSans-Medium.woff2') format('woff2'),
+        url('../font/VelaSans/VelaSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vela Sans Bd';
+    src: url('../font/VelaSans/VelaSans-Bold.woff2') format('woff2'),
+        url('../font/VelaSans/VelaSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vela Sans SemBd';
+    src: url('../font/VelaSans/VelaSans-SemiBold.woff2') format('woff2'),
+        url('../font/VelaSans/VelaSans-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vela Sans ExtBd';
+    src: url('../font/VelaSans/VelaSans-ExtraBold.woff2') format('woff2'),
+        url('../font/VelaSans/VelaSans-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vela Sans ExtLt';
+    src: url('../font/VelaSans/VelaSans-ExtraLight.woff2') format('woff2'),
+        url('../font/VelaSans/VelaSans-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 
 
@@ -39,7 +94,7 @@ color: #FFFFFF;
 .t2 {
 text-align: center;
 color: white;
-font-family: 'Vela Sans GX', sans-serif;
+font-family: 'Vela Sans Med';
 font-style: normal;
 font-weight: 500;
 font-size: 32px;
@@ -52,7 +107,7 @@ margin-top: -20px;
 
 .t3 {
     padding-top: 2%;
-    font-family: 'Vela Sans GX';
+    font-family: 'Vela Sans SemBd';
     font-style: normal;
     font-weight: 600;
     font-size: 45px;
@@ -70,19 +125,23 @@ margin-top: -20px;
     background: 
     linear-gradient(#fff, #fff) padding-box,
     linear-gradient(60deg, rgb(79, 125, 248), rgb(149, 2, 227)) border-box;
-    color: rgb(18, 18, 18);
-    padding: 10px 12px;
+    padding: 0px 12px;
     border: 1px solid transparent;
     border-radius: 10px;
     display: inline-block;
+    color: rgb(18, 18, 18);
+    font-family: 'Vela Sans';
     font-size: 16px;
+    font-weight: 400;
+    line-height: 33.6px;
+    letter-spacing: 5%;
 }
 
 
 
 .nav-link {
     color: rgb(18, 18, 18) !important;
-    font-family: 'Vela Sans GX';
+    font-family: 'Vela Sans';
     font-size: 16px;
     font-weight: 400;
     line-height: 33.6px;
@@ -95,7 +154,7 @@ margin-top: -20px;
 
 .course-title {
     color: rgb(18, 18, 18);
-    font-family: 'Vela Sans GX';
+    font-family: 'Vela Sans SemBd';
     font-size: 28px;
     font-weight: 600;
     line-height: 33.6px;
@@ -126,7 +185,7 @@ margin-top: -20px;
 .option-block {
     display: flex;
     color: rgb(18, 18, 18);
-    font-family: 'Vela Sans GX';
+    font-family: 'Vela Sans Med';
     font-size: 16px;
     font-weight: 500;
     line-height: 33.6px;
@@ -175,7 +234,7 @@ margin-top: -20px;
 
 .card-p {
     color: rgb(18, 18, 18);
-    font-family: 'Vela Sans GX';
+    font-family: 'Vela Sans';
     font-size: 14px;
     font-weight: 400;
     line-height: 25px;
@@ -214,7 +273,7 @@ margin-top: -20px;
 
 .license-p {
     color: rgb(18, 18, 18);
-    font-family: 'Vela Sans GX';
+    font-family: 'Vela Sans';
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -243,7 +302,7 @@ margin-top: -20px;
 
 .divider-title {
     color: rgb(255, 255, 255);
-    font-family: 'Vela Sans GX';
+    font-family: 'Vela Sans SemBd';
     font-size: 24px;
     font-weight: 600;
     line-height: 20px;
@@ -268,7 +327,7 @@ margin-top: -20px;
 .divider-info-p {
     margin-left: 5px;
     color: rgb(255, 255, 255);
-    font-family: 'Vela Sans GX';
+    font-family: 'Vela Sans';
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
@@ -277,4 +336,82 @@ margin-top: -20px;
 
 .divider-info-p span {
     font-weight: 700;
+}
+
+.aboutus {
+    margin-top: 36px;
+}
+
+.aboutus-title {
+    color: rgb(0, 0, 0);
+    font-family: 'Vela Sans SemBd';
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.6px;
+    letter-spacing: 5%;
+}
+
+.aboutus-text {
+    font-family: 'Vela Sans SemBd';
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 5%;
+    text-align: justify;
+}
+
+.aboutus-text span {
+    color: rgb(3, 81, 193);
+    font-weight: 700;
+}
+
+
+.aboutus-block {
+    background: 
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(60deg, rgb(79, 125, 248), rgb(149, 2, 227)) border-box;
+    color: rgb(18, 18, 18);
+    padding: 30px 10px 30px 20px;
+    border: 1px solid transparent;
+    border-radius: 22px;
+    display: inline-block;
+    position: relative;
+    width: 80%;
+}
+
+.aboutus-block-title {
+    display: flex;
+    position: absolute;
+    top: -20px;
+    left: 50%; /* Position it at the horizontal center */
+    transform: translateX(-50%); /* Move it back by half of its own width */
+    border-radius: 11px;
+    background: linear-gradient(214deg, #37bcff 0%, #4f7df8 51.5%, #9502e3 100%);
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 178%;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #fff;
+    height: 50px;
+    padding: 0 12px;
+    white-space: nowrap;
+    font-family: 'Vela Sans SemBd';
+}
+
+.aboutus-info {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    color: #121212;
+}
+
+.aboutus-info span {
+    font-weight: 700;
+    font-size: 22px;
+    background: linear-gradient(222deg, #4875fd 0%, #37bcff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
