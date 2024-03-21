@@ -555,3 +555,94 @@ margin-top: -20px;
     text-align: justify;
     margin-left: 5px;
 }
+
+
+.rates {
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.rates-block {
+    background: 
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(60deg, rgb(79, 125, 248), rgb(149, 2, 227)) border-box;
+    border: 1px solid transparent;
+    border-radius: 14.04px;
+    position: relative;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.rates .row {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+.footer {
+    background: linear-gradient(45.00deg, rgb(149, 2, 227) -0.065%,rgb(72, 117, 253) 52.018%,rgb(55, 188, 255) 99.633%);
+    padding-top: 27px;
+    padding-bottom: 10px;
+}
+
+.suggestion-block {
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    padding: 15px 25px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.shark {
+    position: absolute;
+    top: -20px;
+    right: 10px;
+}
+
+.suggestion-title {
+    color: rgb(18, 18, 18);
+    font-family: 'Vela Sans SemBd';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 33.6px;
+}
+
+.suggestion-text {
+    color: rgb(18, 18, 18);
+    font-family: 'Vela Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33.6px;
+}
+
+.suggestion-email {
+    color: rgb(18, 18, 18);
+    font-family: 'Vela Sans Med';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 33.6px;
+    margin-left: 19px;
+    cursor: pointer;
+}
+
+.suggestion-telegram {
+    padding: 0px 5px;
+    border-radius: 8px;
+    background: 
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(60deg, rgb(79, 125, 248), rgb(149, 2, 227)) border-box;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'Vela Sans Med';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 33.6px;
+    letter-spacing: 5%;
+    margin-right: 18px;
+
+}
