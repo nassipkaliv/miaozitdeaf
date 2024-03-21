@@ -117,8 +117,14 @@ margin-top: -20px;
     color: #FFFFFF;
 }
 
+.header-line {
+    height: 1px;
+    width: 100%;
+    background: linear-gradient(rgb(55, 188, 255), rgb(72, 117, 253), rgb(149, 2, 227));
+}
+
 .menu_nav {
-    gap: 60px;
+    gap: 70px;
 }
 
 .menu-btn {
@@ -735,7 +741,144 @@ margin-top: -20px;
     cursor: pointer;
 }
 
+.title {
+    color: rgb(3, 81, 193);
+    font-family: 'Vela Sans SemBd';
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.6px;
+    letter-spacing: 5%;
+    margin-bottom: 20px;
+    margin-top: 8px;
+}
 
+.text {
+    color: rgb(18, 18, 18);
+    font-family: 'Vela Sans Med';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align-last: justify;
+}
+
+.statya {
+    margin-left: 25px;
+}
+
+.statya-text {
+    color: rgb(3, 81, 193);
+    font-family: 'Vela Sans Med';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-decoration-line: underline;
+}
+
+.podrazdel {
+    margin-left: 70px;
+    margin-bottom: 60px;
+}
+
+.podrazdel-title {
+    color: rgb(3, 81, 193);
+    font-family: 'Vela Sans SemBd';
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.podrazdel-list {
+    position: relative;
+}
+
+.podrazdel-mark {
+    height: 1px;
+    width: 21px;
+    border: 1px solid rgb(3, 81, 193);
+    margin-right: 10px;
+}
+
+.podrazdel-link {
+    color: rgb(18, 18, 18);
+    font-family: 'Vela Sans Med';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.podrazdel-svg {
+    position: absolute;
+    top: -6px;
+}
+
+.RZHYA {
+    background: linear-gradient(224.01deg, rgb(72, 117, 253),rgb(55, 188, 255));
+    -webkit-background-clip:
+    text;
+    -webkit-text-fill-color:
+    transparent;
+    background-clip:
+    text;
+    text-fill-color:
+    transparent;
+    font-family: Nunito;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 33.6px;
+}
+
+.threedblock {
+    border-radius: 20px;
+    background: rgba(55, 188, 255, 0.15);
+    padding: 20px;
+    position: relative;
+    width: 920px;
+}
+
+.threedblock-title {
+    color: rgb(18, 18, 18);
+    font-family: 'Nunito';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33.6px;
+}
+
+.threedblock-p {
+    color: rgb(18, 18, 18);
+    font-family: 'Vela Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    width: 77%;
+}
+
+.threedblock-img {
+    position: absolute;
+    right: -30px;
+    top: -35px;
+}
+
+.date {
+    gap: 5px;
+    align-items: center;
+}
+
+.addInfoText {
+    color: rgb(18, 18, 18);
+    font-family: 'Vela Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.addInfoText span {
+    font-weight: 600;
+    font-family: 'Vela Sans SemBd';
+}
 
 @media (max-width: 768px) { 
     .t1 {
