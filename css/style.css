@@ -917,6 +917,7 @@ margin-top: -20px;
     margin-bottom: 0px !important;
     z-index: 0;
     position: relative;
+    --bs-border-radius: 20px;
 }
 
 .tableWrapper {
@@ -996,6 +997,226 @@ tbody {
 }
 
 
+.price {
+    background: rgba(55, 188, 255, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    margin-top: 55px;
+}
+
+.priceTitle {
+    color: rgb(18, 18, 18);
+    font-family: 'Vela Sans SemBd';
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.6px;
+    margin-bottom: 40px;
+}
+
+.priceRow {
+    display: flex;
+    gap: 30px;
+}
+
+.priceCol {
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+    padding: 20px 25px;
+    padding-right: 15px;
+}
+
+.priceColPreTitle {
+    color: rgb(18, 18, 18);
+    font-family: 'Nunito';
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+}
+
+.priceColTitle {
+    color: rgb(18, 18, 18);
+    font-family: 'Nunito';
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.priceColList {
+    color: rgb(18, 18, 18);
+    font-family: 'Vela Sans SemBd';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.priceColList li::marker {
+    color: #37BCFF;
+}
+
+.priceColListSmallItem {
+    color: rgb(18, 18, 18);
+    font-family: 'Vela Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.bonus {
+    margin-top: 35px;
+    padding-left: 20px;
+}
+
+
+.bonusTitle {
+    color: rgb(18, 18, 18);
+    font-family: 'Nunito';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.bonusP {
+    color: rgb(18, 18, 18);
+    font-family: 'Vela Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.priceColPrice {
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.realPrice {
+    color: rgb(18, 18, 18);
+    font-family: 'Vela Sans SemBd';
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+}
+
+.norealPrice {
+    color: rgb(84, 84, 84);
+    font-family: 'Vela Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    text-decoration-line: line-through;
+}
+
+.priceBtn {
+    border-radius: 10px;
+    background: rgb(55, 188, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px 5px 20px;
+    border: none;
+    margin-top: 25px;
+    color: rgb(255, 255, 255);
+    font-family: 'Vela Sans Med';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 33.6px;
+}
+
+.placeLeft {
+    font-family: 'Vela Sans SemBd';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.banks {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(18, 18, 18);
+    font-family: 'Vela Sans SemBd';
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.6px;
+    gap: 15px;
+}
+
+.credit {
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.creditBlock {
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+    width: 445px;
+    height: 162px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.creditText {
+    color: rgb(18, 18, 18);
+    font-family: 'Vela Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.creditText {
+    font-family: 'Vela Sans SemBd';
+    font-weight: 600;
+}
+
+.creditListItem {
+    color: rgb(18, 18, 18);
+    font-family: 'Vela Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.certificate {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.titleCertificate {
+    color: rgb(18, 18, 18);
+    font-family: 'Vela Sans SemBd';
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 5%;
+    margin-bottom: 30px;
+}
+
+.preTitle {
+    color: rgb(18, 18, 18);
+    font-family: 'Nunito';
+    font-size: 22.37px;
+    font-weight: 600;
+    line-height: 23.97px;
+    text-align: center;
+    margin-bottom: 30px;
+}
 
 @media (max-width: 768px) { 
     .t1 {
