@@ -5,6 +5,11 @@ var ratesSwiper = new Swiper('.ratesSwiper', {
   },
 });
 
+
+var swiperHowGet = new Swiper('.swiperHowGet', {
+  slidesPerView: 1.0,
+});
+
 function scrollToTop() {
   window.scrollTo({
       top: 0,
