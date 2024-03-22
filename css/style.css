@@ -74,7 +74,7 @@
 body {
     font-family: 'VelaSans-GX', sans-serif;
     font-size: 16px;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 .menu_nav {
@@ -820,7 +820,7 @@ margin-top: -20px;
 
 .podrazdel-mark {
     height: 1px;
-    width: 21px;
+    width: 25px;
     border: 1px solid rgb(3, 81, 193);
     margin-right: 10px;
 }
@@ -1255,6 +1255,14 @@ tbody {
     display: none;
 }
 
+.podrazdel-svg-mob {
+    display: none;
+}
+
+.download.mob {
+    display: none !important;
+}
+
 @media (max-width: 768px) { 
     .t1 {
         font-size: 28.56px;
@@ -1489,6 +1497,118 @@ tbody {
 
     .lisence-text {
         font-size: 15px;
+    }
+
+    .statya {
+        margin-left: 0;
+    }
+
+    .podrazdel {
+        margin-left: 0;
+    }
+
+    .podrazdel-svg {
+        display: none;
+    }
+
+    .podrazdel-svg-mob {
+        display: block !important;
+        position: absolute;
+        height: 577px;
+    }
+
+    .threedblock {
+        border-radius: 10.53px;
+        width: 100%;
+        flex-direction: column !important;
+        margin-top: 50px !important;
+    }
+
+    .threedblock-img {
+        top: -75px;
+        right: -60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .threedblock-title {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    .threedblock-info {
+        margin-top: -50px;
+    }
+
+    .blender-desktop {
+        display: none !important;
+    }
+
+    .blender-mob {
+        display: block !important;
+    }
+
+    .threedblock-p {
+        width: 100%;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+
+    .addInfoText {
+        font-size: 16px;
+    }
+
+    .lessonPlan .container {
+        width: 1100px !important;
+        overflow-x: scroll;
+    }
+
+    .tableTitle {
+        text-align: left;
+        justify-content: start;
+    }
+
+    .download {
+        display: none !important;
+    }
+
+    .download.mob {
+        display: flex !important;
+    }
+
+    .priceRow {
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .credit {
+        flex-direction: column;
+    }
+
+    .banks {
+        display: flex;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 26.94px;
+        gap: 5px;
+    }
+
+    .sber {
+        width: 100px;
+    }
+
+    .tinkoff {
+        width: 150px;
+    }
+
+    .creditBlock {
+        width: 100%;
     }
 
 }
