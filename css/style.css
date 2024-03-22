@@ -1411,4 +1411,84 @@ tbody {
         margin-right: 0;
     }
 
+    .footer {
+        display: none !important;
+    }
+
+    .footer.mob {
+        display: block !important;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .suggestion-title {
+        font-size: 14px;
+    }
+
+    .suggestion-text {
+        font-size: 14px;
+    }
+
+    .suggestion-telegram {
+        font-size: 14px;
+        padding: 2px 10px;
+    }
+
+    .suggestion-email {
+        font-size: 14px;
+    }
+
+    .suggestion-block {
+        padding: 15px 20px;
+    }
+
+    .suggestion-telegram {
+        display: inline;
+        margin-right: 5px;
+    }
+
+    .suggestion-email {
+        margin-left: 0;
+    }
+
+    .social-link img {
+        width: 58px;
+        height: 58px;
+    }
+
+    .footer-title {
+        color: rgb(255, 255, 255);
+        font-family: 'Vela Sans SemBd';
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 51.79px;
+    }
+
+    .markk {
+        right: 125px;
+    }
+
+    .footer-link {
+        font-size: 28px;
+    }
+
+    .footer-small-link {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .instagram-ban {
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+
+    .footer-text {
+        font-size: 16px;
+    }
+
+    .lisence-text {
+        font-size: 15px;
+    }
+
 }
