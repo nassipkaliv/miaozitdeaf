@@ -18,7 +18,11 @@
     background: linear-gradient(45.00deg, rgb(149, 2, 227) -0.065%,rgb(72, 117, 253) 52.018%,rgb(55, 188, 255) 99.633%);
     padding-top: 27px;
     padding-bottom: 10px;
-}
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
 
 .suggestion-block {
     border-radius: 20px;
@@ -34,6 +38,7 @@
     top: -20px;
     right: 10px;
 }
+
 
 .suggestion-title {
     color: rgb(18, 18, 18);
@@ -161,7 +166,9 @@
     cursor: pointer;
 }
 
-.footer {
+@media (max-width: 768px) { 
+
+  .footer {
         display: none !important;
     }
 
@@ -236,8 +243,9 @@
     .footer-text {
         font-size: 16px;
     }
+  }
 
-  </style>
+</style>
 
 </head>
 <body>
