@@ -1297,7 +1297,7 @@ tbody {
     }
 
     .jumbotron {
-        background: url("../img/mobbg.png");
+        background: url("../img/mobbg.png") !important;
         background-size: cover;
         background-repeat: no-repeat;
         background-size: 100% 100%;
