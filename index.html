@@ -17,6 +17,863 @@
     <link href="css/style.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <title>Курсы для глухих и слабослыщащих МИАОЦИТ</title>
+
+    <style>
+          .t1 {
+    padding-top: 10%;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    }
+
+    .t2 {
+    text-align: center;
+    color: white;
+    font-family: 'Vela Sans Med';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 70px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: -20px;
+    }
+
+    .t3 {
+        padding-top: 2%;
+        font-family: 'Vela Sans SemBd';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 45px;
+        line-height: 70px;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .courses {
+    margin-top: 30px;
+}
+
+.course-title {
+    color: rgb(18, 18, 18);
+    font-family: 'Vela Sans SemBd';
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.6px;
+}
+
+.course-title.block {
+    background: 
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(60deg, #4875FD, #37BCFF) border-box;
+    border: 1px solid transparent;
+    border-radius: 11px;
+    margin-left: 5px;
+    padding: 2px 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.course-title.block:hover {
+    background: linear-gradient(225.32deg, rgb(72, 117, 253) 11.139%,rgb(55, 188, 255) 73.934%);
+    color: #fff;
+}
+
+.course-title span {
+    background: linear-gradient(224.01deg, rgb(72, 117, 253),rgb(55, 188, 255));
+    -webkit-background-clip:
+    text;
+    -webkit-text-fill-color:
+    transparent;
+    background-clip:
+    text;
+    text-fill-color:
+    transparent;
+    font-family: Nunito;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 33.6px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.options {
+    gap: 20px;
+}
+
+.option-block {
+    display: flex;
+    color: rgb(18, 18, 18);
+    font-family: 'Vela Sans Med';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 33.6px;
+    box-sizing: border-box;
+    border: 0.8px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 0px 12px;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+.option-block.active {
+    background: #32b0ff;
+    color: #fff;
+    border: 0;
+}
+
+.option-block:hover {
+    background: #32b0ff;
+    color: #fff;
+    border: 0;
+}
+
+.custom-card {
+    border-radius: 20px;
+    background: rgba(55, 188, 255, 0.15);
+    padding: 10px;
+    height: 450px;
+}
+
+.img-block {
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-block img {
+  max-width: 75% !important;
+}
+
+.cards {
+    gap: 20px;
+}
+
+.card-title {
+    color: rgb(18, 18, 18);
+    font-family: 'Nunito';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 0px 20px;
+}
+
+.card-p {
+    color: rgb(18, 18, 18);
+    font-family: 'Vela Sans';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 5%;
+    padding: 0px 10px;
+}
+
+.second-row-cards {
+    margin-top: 40px;
+}
+
+.lisence {
+    margin-top: 55px;
+    margin-bottom: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lisence-card {
+    box-sizing: border-box;
+    border: 5px solid rgba(55, 188, 255, 0.3);
+    border-radius: 20px;
+    padding: 25px;
+    gap: 8px;
+    display: flex;
+}
+
+.license-title {
+    color: rgb(18, 18, 18);
+    font-family: 'Nunito';
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.license-p {
+    color: rgb(18, 18, 18);
+    font-family: 'Vela Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.divider-section {
+    background: linear-gradient(224.13deg, rgb(55, 188, 255) 3.112%,rgb(72, 117, 253) 50.154%,rgb(149, 2, 227) 100.192%);
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.divider-block {
+    box-sizing: border-box;
+    border: 0.8px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    position: relative;
+}
+
+.threebuttons {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.divider-line {
+    border: 0.8px solid rgb(255, 255, 255);
+    border-bottom: 0;
+    height: 1px;
+    width: 100%;
+}
+
+.divider-title {
+    color: rgb(255, 255, 255);
+    font-family: 'Vela Sans SemBd';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.divider-info-title {
+    color: rgb(255, 255, 255);
+    font-family: 'Nunito';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-left: 5px;
+}
+
+.divider-info {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.divider-info-p {
+    margin-left: 5px;
+    color: rgb(255, 255, 255);
+    font-family: 'Vela Sans';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 90%;
+}
+
+.divider-info-p span {
+    font-weight: 700;
+}
+
+.aboutus {
+    margin-top: 36px;
+}
+
+.aboutus-title {
+    color: rgb(0, 0, 0);
+    font-family: 'Vela Sans SemBd';
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.6px;
+    letter-spacing: 5%;
+}
+
+.aboutus-text {
+    font-family: 'Vela Sans SemBd';
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 5%;
+    text-align: justify;
+}
+
+.aboutus-text span {
+    color: rgb(3, 81, 193);
+    font-weight: 700;
+}
+
+
+.aboutus-block {
+    background: 
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(60deg, rgb(79, 125, 248), rgb(149, 2, 227)) border-box;
+    color: rgb(18, 18, 18);
+    padding: 30px 10px 30px 20px;
+    border: 1px solid transparent;
+    border-radius: 22px;
+    display: inline-block;
+    position: relative;
+    width: 80%;
+}
+
+.aboutus-block-title {
+    display: flex;
+    position: absolute;
+    top: -20px;
+    left: 50%; /* Position it at the horizontal center */
+    transform: translateX(-50%); /* Move it back by half of its own width */
+    border-radius: 11px;
+    background: linear-gradient(214deg, #37bcff 0%, #4f7df8 51.5%, #9502e3 100%);
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 178%;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #fff;
+    height: 50px;
+    padding: 0 12px;
+    white-space: nowrap;
+    font-family: 'Vela Sans SemBd';
+}
+
+.aboutus-info-text {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    color: #121212;
+}
+
+.aboutus-info-text span {
+    font-weight: 700;
+    font-size: 22px;
+    background: linear-gradient(222deg, #4875fd 0%, #37bcff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.conditions {
+    margin-top: 55px;
+}
+
+.title-conditions {
+    color: rgb(18, 18, 18);
+    font-family: 'Vela Sans SemBd';
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 5%;
+}
+
+.condition-text {
+    color: rgb(3, 81, 193);
+    font-family: 'Vela Sans SemBd';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 5%;
+    text-align: center;
+}
+
+.condition-row {
+    gap: 60px;
+}
+
+.howget {
+    margin-top: 80px;
+}
+
+.courseblock {
+    background: 
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(60deg, rgb(79, 125, 248), rgb(149, 2, 227)) border-box;
+    border: 1px solid transparent;
+    border-radius: 9px;
+    display: inline-block;
+    position: relative;
+    margin-top: 15px;
+    width: 350px;
+}
+
+.coursestep {
+    border-radius: 9.2px;
+    /* МИАОЦИТ */
+    background: linear-gradient(229.84deg, rgb(55, 188, 255) 4.025%,rgb(79, 125, 248) 52.452%,rgb(149, 2, 227) 98.059%);
+    color: rgb(255, 255, 255);
+    font-family: 'Vela Sans SemBd';
+    font-size: 18.41px;
+    font-weight: 600;
+    line-height: 45.83px;
+    letter-spacing: 5%;
+    padding: 0px 13px;
+    position: absolute;
+    top: -30px;
+    left: -50px;
+}
+
+.blockTitle {
+    color: rgb(18, 18, 18);
+    font-family: 'Vela Sans SemBd';
+    font-size: 16.57px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 5%;
+    text-align: center;
+    margin: 5px 0px;
+}
+
+.titleSvg {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.blockLine {
+    width: 100%;
+    height: 1px;
+    background: 
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(60deg, rgb(79, 125, 248), rgb(149, 2, 227)) border-box;
+    border: 1px solid transparent;
+    border-bottom: 0;
+}
+
+.blockText {
+    color: rgb(18, 18, 18);
+    font-family: 'Vela Sans';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.12em;
+    text-align: justify;
+}
+
+.blockInfo {
+    margin: 10px 12px;
+    margin-bottom: 30px;
+}
+
+.instructions-text {
+    color: rgb(0, 0, 0);
+    font-family: 'Vela Sans';
+    font-size: 12.6px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 5%;
+    margin-left: 5px;
+}
+
+.instruction-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4.85px 7.76px 4.85px 7.76px;
+    border-radius: 3.69px;
+    box-shadow: 0px 0.97px 1.94px 0px rgba(0, 0, 0, 0.25);
+    background: rgba(55, 188, 255, 0.15);
+}
+
+.instruction-block-text {
+    color: rgb(0, 0, 0);
+    font-family: 'Vela Sans';
+    font-size: 11.63px;
+    font-weight: 400;
+    line-height: 22.14px;
+    text-align: justify;
+    margin-left: 5px;
+}
+
+
+.rates {
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.rates-block {
+    background: 
+    linear-gradient(#fff, #fff) padding-box,
+    linear-gradient(60deg, rgb(79, 125, 248), rgb(149, 2, 227)) border-box;
+    border: 1px solid transparent;
+    border-radius: 14.04px;
+    position: relative;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.rates .row {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+
+@media (max-width: 768px) { 
+    .t1 {
+        font-size: 28.56px;
+        font-weight: 700;
+        line-height: 33.1px;
+    }
+
+    .t2 {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 24.82px;
+        margin-top: 0;
+    }
+
+    .t3 {
+        font-size: 21.67px;
+        font-weight: 600;
+        line-height: 25px;
+    }
+    
+    .toTop {
+        margin-bottom: 170px;
+    }
+
+    .jumbotron {
+        background: url("../img/mobbg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+        height: 570px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .slogan {
+        display: block !important;
+        position: absolute;
+        color: rgb(255, 255, 255);
+        font-family: 'Raleway', sans-serif;
+        font-size: 11.72px;
+        font-weight: 400;
+        line-height: 14.65px;
+        letter-spacing: 5%;
+        bottom: 167px;
+    }
+
+    .slogan2 {
+        display: block !important;
+        position: absolute;
+        color: rgb(255, 255, 255);
+        font-family: 'Raleway', sans-serif;
+        font-size: 11.72px;
+        font-weight: 400;
+        line-height: 14.65px;
+        letter-spacing: 5%;
+        bottom: 97px;
+        right: 5px;
+    }
+
+    .menu_nav {
+        gap: 0px;
+    }
+
+    .courses {
+        margin-top: 15px;
+    }
+
+    .course-title.block {
+        border-radius: 11.35px;
+        font-size: 24.32px;
+        font-weight: 500;
+        line-height: 34.6px;
+    }
+
+    .courseRow {
+        display: block !important;
+        flex-direction: row !important;
+    }
+
+    .options {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      
+    .cards {
+        flex-direction: column !important;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    .license-title {
+        font-size: 18px;
+    }
+
+    .license-p {
+        font-size: 13px;
+        margin-top: 5px !important;
+        font-weight: 400;
+        line-height: 21.56px;
+        letter-spacing: 0%;
+    }
+
+    .lisence-card {
+        padding: 15px;
+    }
+
+    .divider-title {
+        font-size: 20px;
+    }
+
+    .divider-info-p {
+        font-size: 17px;
+    }
+
+    .aboutus-text {
+        margin-bottom: 50px;
+    }
+
+    .aboutus-info-text {
+        font-size: 18px;
+    }
+
+    .aboutus-block {
+        width: 100%;
+    }
+
+    .condition-row {
+        flex-direction: column !important;
+    }
+
+    .howget {
+        margin-top: 30px;
+    }
+
+    .howget-row {
+        display: none !important;
+    }
+
+    .howget-mob {
+        display: block !important;
+    }
+
+    .coursestep {
+        left: -15px;
+    }
+
+    .rates .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .footer {
+        display: none !important;
+    }
+
+    .footer.mob {
+        display: block !important;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .suggestion-title {
+        font-size: 14px;
+    }
+
+    .suggestion-text {
+        font-size: 14px;
+    }
+
+    .suggestion-telegram {
+        font-size: 14px;
+        padding: 2px 10px;
+    }
+
+    .suggestion-email {
+        font-size: 14px;
+    }
+
+    .suggestion-block {
+        padding: 15px 20px;
+    }
+
+    .suggestion-telegram {
+        display: inline;
+        margin-right: 5px;
+    }
+
+    .suggestion-email {
+        margin-left: 0;
+    }
+
+    .social-link img {
+        width: 58px;
+        height: 58px;
+    }
+
+    .footer-title {
+        color: rgb(255, 255, 255);
+        font-family: 'Vela Sans SemBd';
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 51.79px;
+    }
+
+    .markk {
+        right: 125px;
+    }
+
+    .footer-link {
+        font-size: 28px;
+    }
+
+    .footer-small-link {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .instagram-ban {
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+
+    .footer-text {
+        font-size: 16px;
+    }
+
+    .lisence-text {
+        font-size: 15px;
+    }
+
+    .statya {
+        margin-left: 0;
+    }
+
+    .podrazdel {
+        margin-left: 0;
+    }
+
+    .podrazdel-svg {
+        display: none;
+    }
+
+    .podrazdel-svg-mob {
+        display: block !important;
+        position: absolute;
+        height: 577px;
+    }
+
+    .threedblock {
+        border-radius: 10.53px;
+        width: 100%;
+        flex-direction: column !important;
+        margin-top: 50px !important;
+    }
+
+    .threedblock-img {
+        top: -75px;
+        right: -60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .threedblock-title {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    .threedblock-info {
+        margin-top: -50px;
+    }
+
+    .blender-desktop {
+        display: none !important;
+    }
+
+    .blender-mob {
+        display: block !important;
+    }
+
+    .threedblock-p {
+        width: 100%;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+
+    .addInfoText {
+        font-size: 16px;
+    }
+
+    .lessonPlan .container {
+        width: 1100px !important;
+        overflow-x: scroll;
+    }
+
+    .tableTitle {
+        text-align: left;
+        justify-content: start;
+    }
+
+    .download {
+        display: none !important;
+    }
+
+    .download.mob {
+        display: flex !important;
+    }
+
+    .priceRow {
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .credit {
+        flex-direction: column;
+    }
+
+    .banks {
+        display: flex;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 26.94px;
+        gap: 5px;
+    }
+
+    .sber {
+        width: 100px;
+    }
+
+    .tinkoff {
+        width: 150px;
+    }
+
+    .creditBlock {
+        width: 100%;
+    }
+
+}
+
+    </style>
+
 </head>
 
 <body>
@@ -97,20 +954,6 @@
               для взрослых с 18 лет
             </h1>
           </div>
-          <div class="d-flex align-items-center">
-            <svg width="32" height="12" viewBox="0 0 32 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M1 5.25C0.585786 5.25 0.25 5.58579 0.25 6C0.25 6.41421 0.585786 6.75 1 6.75V5.25ZM31.5303 6.53033C31.8232 6.23744 31.8232 5.76256 31.5303 5.46967L26.7574 0.696699C26.4645 0.403806 25.9896 0.403806 25.6967 0.696699C25.4038 0.989593 25.4038 1.46447 25.6967 1.75736L29.9393 6L25.6967 10.2426C25.4038 10.5355 25.4038 11.0104 25.6967 11.3033C25.9896 11.5962 26.4645 11.5962 26.7574 11.3033L31.5303 6.53033ZM1 6.75H31V5.25H1V6.75Z" fill="url(#paint0_linear_15_803)"/>
-              <defs>
-              <linearGradient id="paint0_linear_15_803" x1="27.5979" y1="6" x2="25.5341" y2="13.5707" gradientUnits="userSpaceOnUse">
-              <stop stop-color="#4875FD"/>
-              <stop offset="0.708333" stop-color="#37BCFF"/>
-              </linearGradient>
-              </defs>
-            </svg>  
-            <h1 class="course-title block">
-              для детей от 14 до 18 лет
-            </h1>
-          </div>
         </div>
         <div class="options d-flex mt-4">
           <div class="option-block active">Все курсы</div>
@@ -122,6 +965,7 @@
         <div class="cards d-flex row mt-4">
           <div class="col custom-card">
             <div class="img-block">
+              <img class="img-fluid" src="img/1rsl.png" alt="1">
             </div>
             <div class="card-title">
               3D-графика в среде <br>
@@ -134,6 +978,7 @@
           </div>
           <div class="col custom-card">
             <div class="img-block">
+              <img class="img-fluid" src="img/2documents.png" alt="1">
             </div>
             <div class="card-title">
               English Deaf ZERO <br>
@@ -145,6 +990,7 @@
           </div>
           <div class="col custom-card">
             <div class="img-block">
+              <img class="img-fluid" src="img/2dop.png" alt="1">
             </div>
             <div class="card-title">
               English Deaf 2.0 версия <br>
@@ -157,6 +1003,7 @@
           </div>
           <div class="col custom-card">
             <div class="img-block">
+              <img class="img-fluid" src="img/3contract.png" alt="1">
             </div>
             <div class="card-title">
               Основы SQL <br>
@@ -164,6 +1011,83 @@
             </div>
             <div class="card-p mt-4">
               Создание таблиц, вставка <br> данных и выполнение <br> SQL-запросов
+            </div>
+          </div>
+        </div>
+        <div class="mt-4">
+          <div class="d-flex align-items-center courseRow">
+            <div class="d-flex align-items-center">
+              <svg width="32" height="12" viewBox="0 0 32 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 5.25C0.585786 5.25 0.25 5.58579 0.25 6C0.25 6.41421 0.585786 6.75 1 6.75V5.25ZM31.5303 6.53033C31.8232 6.23744 31.8232 5.76256 31.5303 5.46967L26.7574 0.696699C26.4645 0.403806 25.9896 0.403806 25.6967 0.696699C25.4038 0.989593 25.4038 1.46447 25.6967 1.75736L29.9393 6L25.6967 10.2426C25.4038 10.5355 25.4038 11.0104 25.6967 11.3033C25.9896 11.5962 26.4645 11.5962 26.7574 11.3033L31.5303 6.53033ZM1 6.75H31V5.25H1V6.75Z" fill="url(#paint0_linear_15_803)"/>
+                <defs>
+                <linearGradient id="paint0_linear_15_803" x1="27.5979" y1="6" x2="25.5341" y2="13.5707" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#4875FD"/>
+                <stop offset="0.708333" stop-color="#37BCFF"/>
+                </linearGradient>
+                </defs>
+              </svg>  
+              <h1 class="course-title block me-4">
+                для детей от 14 до 18 лет
+              </h1>
+            </div>
+          </div>
+          <div class="options d-flex mt-4">
+            <div class="option-block active">Все курсы</div>
+            <div class="option-block">Программирование</div>
+            <div class="option-block">Иностранный язык</div>
+            <div class="option-block">Цифровой дизайн</div>
+            <div class="option-block">Саморазвитие</div>
+          </div>
+          <div class="cards d-flex row mt-4">
+            <div class="col custom-card">
+              <div class="img-block">
+                <img class="img-fluid" src="img/1step.png" alt="1">
+              </div>
+              <div class="card-title">
+                3D-графика в среде <br>
+                Blender 1.0 <br>
+                для начинающих 
+              </div>
+              <div class="card-p">
+                Создание 3D-модель, <br> материалы, анимация
+              </div>
+            </div>
+            <div class="col custom-card">
+              <div class="img-block">
+                <img class="img-fluid" src="img/4study.png" alt="1">
+              </div>
+              <div class="card-title">
+                English Deaf ZERO <br>
+                для начинающих с нуля
+              </div>
+              <div class="card-p mt-4">
+                Чтение, письмо, <br> грамматика, словарный <br> запас для начинающего <br> уровня (A1–A2)
+              </div>
+            </div>
+            <div class="col custom-card">
+              <div class="img-block">
+                <img class="img-fluid" src="img/aboutCourse.png" alt="1">
+              </div>
+              <div class="card-title">
+                English Deaf 2.0 версия <br>
+                для взрослых <br>
+                (для среднего уровня В1-С1)
+              </div>
+              <div class="card-p mt-1">
+                Грамматика, словарный <br> запас, диалог для среднего <br> уровня (В1–C1)
+              </div>
+            </div>
+            <div class="col custom-card">
+              <div class="img-block">
+                <img class="img-fluid" src="img/blankcertificate.svg" alt="1">
+              </div>
+              <div class="card-title">
+                Основы SQL <br>
+                для начинающих
+              </div>
+              <div class="card-p mt-4">
+                Создание таблиц, вставка <br> данных и выполнение <br> SQL-запросов
+              </div>
             </div>
           </div>
         </div>
@@ -738,10 +1662,10 @@
         <div class="swiper ratesSwiper w-50">
           <div class="swiper-wrapper">
             <div class="swiper-slide rates-block"><img class="img-fluid" width="160px" height="160px" src="img/1rsl.png" alt="1"></div>
-            <div class="swiper-slide rates-block"><img class="img-fluid" width="160px" height="160px" src="img/1rsl.png" alt="1"></div>
-            <div class="swiper-slide rates-block"><img class="img-fluid" width="160px" height="160px" src="img/1rsl.png" alt="1"></div>
-            <div class="swiper-slide rates-block"><img class="img-fluid" width="160px" height="160px" src="img/1rsl.png" alt="1"></div>
-            <div class="swiper-slide rates-block"><img class="img-fluid" width="160px" height="160px" src="img/1rsl.png" alt="1"></div>
+            <div class="swiper-slide rates-block"><img class="img-fluid" width="160px" height="160px" src="img/1step.png" alt="1"></div>
+            <div class="swiper-slide rates-block"><img class="img-fluid" width="160px" height="160px" src="img/2documents.png" alt="1"></div>
+            <div class="swiper-slide rates-block"><img class="img-fluid" width="160px" height="160px" src="img/3dopupdate.png" alt="1"></div>
+            <div class="swiper-slide rates-block"><img class="img-fluid" width="160px" height="160px" src="img/4study.png" alt="1"></div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
@@ -753,9 +1677,9 @@
               <img class="img-fluid" width="160px" height="160px" src="img/1rsl.png" alt="1">
             </div>
             <div class="swiper-slide rates-block"><img class="img-fluid" width="160px" height="160px" src="img/1rsl.png" alt="1"></div>
-            <div class="swiper-slide rates-block"><img class="img-fluid" width="160px" height="160px" src="img/1rsl.png" alt="1"></div>
-            <div class="swiper-slide rates-block"><img class="img-fluid" width="160px" height="160px" src="img/1rsl.png" alt="1"></div>
-            <div class="swiper-slide rates-block"><img class="img-fluid" width="160px" height="160px" src="img/1rsl.png" alt="1"></div>
+            <div class="swiper-slide rates-block"><img class="img-fluid" width="160px" height="160px" src="img/1step.png" alt="1"></div>
+            <div class="swiper-slide rates-block"><img class="img-fluid" width="160px" height="160px" src="img/2documents.png" alt="1"></div>
+            <div class="swiper-slide rates-block"><img class="img-fluid" width="160px" height="160px" src="img/3dopupdate.png" alt="1"></div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
