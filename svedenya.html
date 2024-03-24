@@ -64,6 +64,7 @@
 
 .podrazdel-list {
     position: relative;
+    z-index: 10;
 }
 
 .podrazdel-mark {
@@ -81,12 +82,16 @@
     line-height: 35px;
     text-align: justify;
     text-decoration: none;
+    z-index: 99;
+    
 }
 
 .podrazdel-svg {
     position: absolute;
     top: -6px;
+    z-index: 0;
 }
+
 
 @media (max-width: 768px) { 
     .t1 {
